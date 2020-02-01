@@ -38,4 +38,8 @@ public class ConditionalAWSXRayServletFilter implements Filter{
     public void destroy() {
         xrayFilter.destroy();
     }
+    
+    public void newMethod() {
+        // todo later
+    }
 }
